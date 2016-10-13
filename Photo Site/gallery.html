@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="gallery.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</head>
+<body>
+	<!--NAV BAR/DRAWER-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+        </button>
+	      <a class="navbar-brand" href="#">
+	      	<span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+	      	5280 App Development
+	      </a>
+	    </div>
+
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+
+
+		    <ul class="nav navbar-nav">
+		    	<li><a href="#">About</a></li>
+		       	<li><a href="#">Contact</a></li>
+		    </ul>
+
+		   	<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Log in</a></li>
+			</ul>
+		</div>
+
+	  </div>
+	</nav>
+
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1>
+				<i class="fa fa-camera-retro" aria-hidden="true"></i>
+				My Adventure Gallery
+			</h1>
+			<p>Different photos I have taken along the way...</p>
+		</div>
+
+		<div class="row" style="display:flex; flex-wrap: wrap;">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1428094479093-8973a318bd76">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1440558547120-1c1cae0397a1">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1465188162913-8fb5709d6d57">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1475446401841-97e2b596b59d">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1447014886653-534c5b8b85c1">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1464658824763-547203e5a4a1">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
